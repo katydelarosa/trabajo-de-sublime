@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>el cuerpo humano</title>
+</head>
+<body>
+<b>1.¿cuantos huesos tiene el careo</b>
+<p>
+	<input type="radio" name="0" value="A" onclick="captura(this.value,0">
+	<label>A. 8 huesos</label>
+</p>
+
+<p>
+	<input type="radio" name="0" value="B" onclick="captura(this.value,0">
+	<label>B. 12 huesos</label>
+</p>
+	
+<p>
+	<input type="radio" name="0" value="C" onclick="captura(this.value,0">
+	<label>C. 22 huesos</label>
+</p>
+
+<b>2.¿cuantos huesos tiene el cuerpo humano?</b>
+<p>
+	<input type="radio" name="1" value="A" onclick="captura(this.value,1">
+	<label>A. 300 huesos</label>
+</p>
+
+<p>
+	<input type="radio" name="1" value="B" onclick="captura(this.value,1">
+	<label>B. 2006 huesos</label>
+</p>
+
+<p>
+	<input type="radio" name="1" value="C" onclick="captura(this.value,1">
+	<label>C. 200 huesos</label>
+</p>
+
+<b>3.¿cuantas partes tiene el corazon?</b>
+<p>
+	<input type="radio" name="2" value="A" onclick="captura(this.value,2">
+	<label>A. 4 partes</label>
+</p>
+
+
+<p>
+	<input type="radio" name="2" value="B" onclick="captura(this.value,2">
+	<label>B. 9 partes</label>
+</p>
+
+<p>
+	<input type="radio" name="2" value="C" onclick="captura(this.value,2">
+	<label>C. 13 partes</label>
+</p>
+
+<b>4.¿cuantas parte tiene los pulmones</b>
+<p>
+	<input type="radio" name="3" value="A" onclick="captura(this.value,3">
+	<label>A. 8 partes</label>
+</p>
+
+<p>
+	<input type="radio" name="3" value="B" onclick="captura(this.value,3">
+	<label>B. 7 partes</label>
+</p>
+
+<p>
+	<input type="radio" name="3" value="C" onclick="captura(this.value,3">
+	<label>C. 3 partes</label>
+</p>
+
+<b>5.¿cuantos dedos tenemos?</b>
+<p>
+	<input type="radio" name="4" value="A" onclick="captura(this.value,4">
+	<label>A. 5</label>
+</p> 
+
+<p>
+	<input type="radio" name="4" value="B" onclick="captura(this.value,4">
+	<label>B. 10</label>
+</p> 
+
+<p>
+	<input type="radio" name="4" value="C" onclick="captura(this.value,4">
+	<label>C. 20</label>
+</p>
+
+<b>6.¿cuantos dientes tiene el ser humano?</b> 
+<p>
+	<input type="radio" name="5" value="A" onclick="captura(this.value,5">
+	<label>A. 20</label>
+</p>
+
+<p>
+	<input type="radio" name="5" value="B" onclick="captura(this.value,5">
+	<label>B. 37</label>
+</p>
+
+<p>
+	<input type="radio" name="5" value="C" onclick="captura(this.value,5">
+	<label>C. 20</label>
+</p>
+
+<b>7.¿cuantas cordales tiene el ser humano?</b>
+
+<p>
+	<input type="radio" name="6" value="A" onclick="captura(this.value,6">
+	<label>A. 20</label>
+</p>
+
+<p>
+	<input type="radio" name="6" value="B" onclick="captura(this.value,6">
+	<label>B. 4</label>
+</p>
+
+<p>
+	<input type="radio" name="6" value="C" onclick="captura(this.value,6">
+	<label>C. 20</label>
+</p>
+
+<b>8.¿cuantas partes tiene el sistema digestivo?</b>
+<p>
+	<input type="radio" name="7" value="A" onclick="captura(this.value,7">
+	<label>A. 20</label>
+</p>
+
+<p>
+	<input type="radio" name="7" value="B" onclick="captura(this.value,7">
+	<label>B. 12</label>
+</p>
+
+<p>
+	<input type="radio" name="7" value="C" onclick="captura(this.value,7">
+	<label>C. 19</label>
+</p>
+
+<b>9.¿cuantos huesos tiene el oido?</b>
+<p>
+	<input type="radio" name="8" value="A" onclick="captura(this.value,8">
+	<label>A. 19</label>
+</p>
+
+<p>
+	<input type="radio" name="8" value="B" onclick="captura(this.value,8">
+	<label>B. 8</label>
+</p>
+
+<p>
+	<input type="radio" name="8" value="C" onclick="captura(this.value,8">
+	<label>C. 3</label>
+</p>
+
+<b>10.¿cuantos huesos tiene el pie?</b>
+
+<p>
+	<input type="radio" name="9" value="A" onclick="captura(this.value,9">
+	<label>A. 3</label>
+</p>
+
+<p>
+	<input type="radio" name="9" value="B" onclick="captura(this.value,9">
+	<label>B. 5</label>
+</p>
+
+<p>
+	<input type="radio" name="9" value="C" onclick="captura(this.value,9">
+	<label>C. 7</label>
+</p>
+
+
+<button> onclick="mostrar()"> ver marcados</button>
+<input type="text" id="t1">
+
+<button> onclick="lanota()"> ver nota</button>
+<input type="text" id="t2">
+
+
+<script type="text/javascript">
+
+	var respuestasusuario=[];
+	var respuestascorrectas=["A"  , "A" , "A" , "B" , "A" , "B" , "B" , "A" , "B" , "C" ]
+	var nota;
+
+	function captura(op,pos) {
+		// body...
+		respuestasusuario [pos]= op
+
+		console.log(respuestasusuario)
+	}
+
+	function mostrar()
+
+	{
+		var c =respuestasusuario.join()
+		document.getElementById("t1").value= c;
+
+	}	
+
+	function lanota(){
+		nota = 0;
+		for (var i = 0; i ( respuestasusuario.length;i++){
+		 
+
+		 if (respuestasusuario[i]) == respuestascorrectas[i] {
+		 	nota++;
+		 	document.getElementById("t2").value= lanota
+
+
+		}}
+		
+	console.log(nota)}	 	
+
+
+
+
+</script>  
+</body>
+</html>
